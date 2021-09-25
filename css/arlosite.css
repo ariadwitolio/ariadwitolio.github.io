@@ -1,0 +1,610 @@
+      body {
+        background-color: #1D1E42;
+        font-family: Montserrat;
+        text-decoration: none;
+        padding-bottom: 0px;
+      }
+      * {
+         scrollbar-width: thin;
+         scrollbar-color: rgb(255, 255, 255, 20%);
+       }
+      *::-webkit-scrollbar {
+         width: 5px;
+       }
+       
+      *::-webkit-scrollbar-track {
+         background: #1D1E42;
+       }
+       
+      *::-webkit-scrollbar-thumb {
+         background-color: rgb(255, 255, 255, 20%);
+         border-radius: 5px;
+       }
+       
+      *::-webkit-scrollbar-corner {
+         background: #1D1E42;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      .navbar-mobile {
+        display: none;
+        visibility: hidden;
+      }
+      /* Create a sticky/fixed navbar */
+      #navbar {
+        overflow: hidden;
+        /*background-color: transparent;*/
+        padding: 40px; /* Large padding which will shrink on scroll (using JS) */
+        transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+        position: fixed; /* Sticky/fixed navbar */
+        width: 100%;
+        top: 0; /* At the top */
+        z-index: 99;
+      }
+      /* Style the navbar links */
+      #navbar a {
+        float: left;
+        /*color: black;*/
+        text-align: center;
+        padding: 12px;
+        margin: 0px 15px;
+        /*transition: 0.1s;*/
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 25px;
+        /*border-radius: 4px;*/
+      }
+      #navbar a:hover {
+        transform: scale(1.03);
+        color: white;
+      }
+      #navbar a.active {
+        color: white;
+      }
+      /* Style the logo */
+      #navbar #logo {
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+      }
+      a {
+        text-decoration: none;
+      }
+      #hero {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        /*background-color: #141432;*/
+      }
+      #description h5 {
+        margin-top: -10px;
+        margin-bottom: 30px;
+      }
+      #hero h2 {
+        font-size: 38px;
+      }
+      #hero h5 b #name {
+        color : #514FEB;
+      }
+      #hero #img {
+        background-size: cover;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 8px;
+        width: 40%;
+        height: 300px;
+      }
+      #hero #description {
+        padding-left: 50px;
+        text-align: left;
+      }
+      #sosmed img {
+        opacity: 50%;
+      }
+      #sosmed img:hover {
+        opacity: 100%;
+      }
+      #project {
+        /*height: 2200px;*/
+        margin-bottom: 100px;
+        text-decoration: none;
+        margin-top: 130px;
+        text-align: center;  
+      }
+      #project a button #button {
+        text-decoration: none;
+      }
+      #project a button #button:hover {
+        text-decoration: none;
+      }
+      #project h2 {
+        margin-bottom: 50px;
+        color: white;
+        text-align: center;
+      }
+      #project img {
+        transition: 0.3s;
+        border-radius: 10px;
+      }
+      #project img:hover {
+        transform: scale(1.02);
+      }
+      #project #img {
+        width: 60%;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin: 0 10px 0 15px;
+      }
+      #project-list {
+        margin-bottom: 30px;
+      }
+      #project-list img {
+        width: 100%;
+      } 
+      #tabmenu {
+        margin-bottom: 500px;
+      }
+      #tabmenu a:hover {
+        color: black;
+      }
+      #myBtn {
+        overflow: hidden;
+         /*Hidden by default */
+        background-size: 30px 30px;
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: white; /* Set a background color */
+        color: #15114A; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 100%; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+        transition: 0.2s;
+        display: none;
+        /*opacity: 50%;*/
+      }
+      #myBtn:hover {
+        /*background-color: #FF6CF0; /* Add a dark-grey background on hover */
+        transform: scale(1.03);
+      }
+      #icon {
+        background-color: white;
+      }
+      .row {
+        color: white;
+      }
+      #interest {
+        width: 100%;
+        padding: 50px;
+        background-color: #141432;
+        /*background-color: rgba(81, 79, 235, 0.1);*/
+        border-radius: 15px;
+        margin-bottom: 100px;
+      }
+      #interest h5 {
+        margin-top: 10px;
+        margin-bottom: auto;
+      }
+      #interest button {
+        display: block;
+        margin-right: auto;
+        margin-left: 100px;
+        margin-top: 0px;
+        margin-bottom: auto;
+        background-color: #514FEB;
+        border-radius: 7px;
+        /*border-color: 2px solid white;*/
+        padding: 12px 20px 12px 20px;
+        color: white;
+        font-size: 15px;
+        transition: 0.2s;
+      }
+      #interest button:hover {
+        background-color: #514FEB;
+        transform: scale(1.03);
+        border-color: #514FEB;
+      }
+      .btn {          
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .kontak-kami {
+        /*border-color: white;*/
+        color: green;
+      }
+      .more {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        border-color: white;
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      .more:hover {
+        border-color: #514FEB;
+        color: white;
+        background-color: #514FEB;
+      }
+      #testimoni {
+        margin-top: 100px;
+        margin-bottom: 20px;
+      }
+      #testimoni h2 {
+        margin-bottom: 50px;
+        color: white;
+        text-align: center;
+      }
+      #testimoni img {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 8px;
+      }
+      #testimoni #deskripsi {
+        font-size: 16px;
+        opacity: 60%;
+      }
+      #mengapa-arlosite {
+        transition: 0.4s;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0px 70px 0px 70px;
+      }
+      #mengapa-arlosite img {
+        width: 30%;
+        margin-bottom: 30px;
+      }
+      #mengapa-arlosite:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+      }
+      #mengapa-arlosite p {
+        font-size: 16px;
+        opacity: 60%;
+      }
+      #testimoni3 {
+        width: 100%;
+        padding: 60px 20px;
+        background-color: rgba(000, 0, 0, 0.15);
+        border-radius: 15px;
+        margin-bottom: 100px;
+      }
+      #testimoni2 {
+        padding: 0 100px;
+      }
+      #testimoni2 #img {
+        width: 270px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin: 0 25px;
+      }
+      #testimoni2 li{
+        width: 100%;
+      }
+      #testimoni2 #deskripsi {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      #testimoni2 h6 {
+        opacity: 60%;
+        margin: 0px;
+      }
+      #testimoni2 #title {
+        opacity: 60%;
+        font-size: 14px;
+      }
+      #testimoni2 #text-testimoni {
+        width: 55%;
+        margin-bottom: 50px;
+      }
+      #testimoni2 img {
+        display: block;
+        border-radius: 8px;
+      }
+      .splide__arrow {
+        background-color: transparent;
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+      }
+      .splide__arrow:hover {
+        background-color: rgb(255, 255, 255, 30%);
+        border: none;
+      }
+      .splide__arrow svg {
+        fill: white;
+      }
+      .navbar .has-megamenu{
+        position:static!important;
+      }
+      .navbar .megamenu{
+        left:0;
+        right:0;
+        width:100%;
+        margin-top:0;
+      }
+      #sosmed {
+        display: inline;
+      }
+      #sosmed img {
+        transition: 0.2s;
+      }
+      #sosmed img:hover {
+        transform: scale(1.05);
+      }
+      footer {
+        bottom: 0px;
+        text-align: center;
+        background-color: #141432;
+        color: white;
+        padding: 50px;
+      }
+      footer p {
+        margin: 25px 0px 0px 0px;
+      }
+      footer h3 {
+        margin: 0px 0px 25px 0px;
+      }
+ 
+      /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+      @media screen and (max-width: 580px) {
+        img #myImg {
+          width: 100%;
+          
+        }
+        footer p {
+        margin: 20px 0px 60px 0px;
+      }footer h3 {
+        margin: 0px 0px 20px 0px;
+      }
+      .navbar {
+        display: none;
+      }
+      .navbar-mobile {
+        display: block;
+        visibility: visible;
+        overflow: hidden;
+        /*background-color: #333;*/
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 10px !important; /*Use !important to make sure that JavaScript doesn't override the padding on small screens*/
+        background-color: rgba( 20, 20, 50, 0.50 );
+        backdrop-filter: blur(25px);
+        
+        z-index: 99;
+        text-align: center;
+        align-items: center;
+      }
+
+      .navbar-mobile a {
+        float: center;
+        display: inline-block;
+        color: #ffff;
+        text-align: center;
+        padding: 14px 24px;
+        text-decoration: none;
+        font-size: 15px;
+        opacity: 50%;
+      }
+
+      /*.navbar-mobile a:hover {
+        background: #f1f1f1;
+        color: black;
+      }*/
+
+      .navbar-mobile a.actives {
+        color: #ffff;
+        opacity: 100%;
+      }
+        /*#navbar {
+          padding: 10px 10px !important; Use !important to make sure that JavaScript doesn't override the padding on small screens
+          background-color: rgba( 255, 255, 255, 0.25 );
+          display: block;
+        }
+        .topnav-right {
+          display: none;
+          width: 100%;
+        }
+        .topnav-right ul {
+          /*display: none;
+          width: 100%;
+          height: 100%;
+        }
+        
+        #navbar a {
+          float: none;
+          display: block;
+          text-align: left;
+          margin: 0px;
+        }*/
+        #sosmed img {
+          width: 22px;
+        }
+        #project {
+        /*height: 2200px;*/
+          margin-top: 0px;
+          margin-bottom: 100px;  
+        }
+        #project-list {
+          margin-bottom: 15px;
+        }
+        #hero {
+          margin-top: 0px;
+          margin-bottom: 150px;
+          text-align: center;
+        }
+        #hero #img {
+          margin-top: 55px;
+        background-size: cover;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 8px;
+        width: 80%;
+        height: 200px;
+        padding: 0px;
+      }
+        #hero #description {
+          text-align: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0px 30px;
+        }
+        #hero h2 {
+          margin-top: 50px;
+          font-size: 32px;
+        }
+        #interest {
+          width: 100%;
+          padding: 35px;
+          background-color: #141432;
+          border-radius: 0px;
+          margin-bottom: 100px;
+          text-align: center;
+        }
+        #interest h3 {
+          margin-top: auto;
+          margin-bottom: auto;
+          font-size: 20px;
+        }
+        #interest button {
+          display: block;
+          background-color: #514FEB;
+          border-radius: 7px;
+          /*border-color: 2px solid white;*/
+          color: white;
+          font-size: 14px;
+          margin-left: auto;
+          margin-right: auto;
+          float: center;
+          margin-top: 30px;
+        }
+        .btn {          
+          padding: 10px 20px;
+          font-size: 14px;
+          cursor: pointer;
+        }
+        .more {
+          display: block;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 10px;
+          border-color: white;
+          color: white;
+          background-color: transparent;
+        }
+        #testimoni {
+          margin-top: 50px;
+          margin-bottom: 30px;
+        }
+        #testimoni img {
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+          border-radius: 8px;
+        }
+        #testimoni h2 {
+          margin-bottom: 60px;
+          color: white;
+          text-align: center;
+        }
+        #mengapa-arlosite {
+          margin-bottom: 30px;
+          text-align: center;
+          padding: 0px 70px 0px 70px;
+        }
+        #mengapa-arlosite img {
+          width: 30%;
+          margin-bottom: 30px;
+        }
+        #testimoni3 {
+          width: 90%;
+          padding: 30px;
+          background-color: rgba(000, 0, 0, 0.15);
+          border-radius: 15px;
+          margin-bottom: 100px;
+        }
+        #testimoni2 {
+          padding: 0;
+        }
+        #testimoni2 #img {
+          width: 230px;
+          height: 170px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          border-radius: 5px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+        }
+        #testimoni2 li{
+          width: 100%;
+        }
+        #testimoni2 #deskripsi {
+          font-size: 15px;
+          margin-bottom: 20px;
+        }
+        #testimoni2 h6 {
+          opacity: 60%;
+          margin: 0px;
+        }
+        #testimoni2 #title {
+          opacity: 60%;
+          font-size: 14px;
+        }
+        #testimoni2 #text-testimoni {
+          width: 100%;
+          margin-bottom: 50px;
+          text-align: center;
+        }
+        #testimoni2 img {
+          display: block;
+          border-radius: 8px;
+        }
+        .splide {
+          width: 100%;
+        }
+        .splide__arrow {
+          background-color: transparent;
+          width: 50px;
+          height: 50px;
+          border: 1px solid white;
+          position: absolute;
+          bottom: 5px;
+          display: none;
+        }
+      }
+      
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
