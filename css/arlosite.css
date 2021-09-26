@@ -47,6 +47,9 @@
         z-index: 99;
       }
       /* Style the navbar links */
+      #navbar a #logo {
+            text-align: left;
+}
       #navbar a {
         float: left;
         /*color: black;*/
