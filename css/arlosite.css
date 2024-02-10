@@ -489,6 +489,7 @@
         #hero h3 {
           margin-top: 10px;
           font-size: 18px;
+          opacity: 60%;
         }
         #interest {
           width: 100%;
