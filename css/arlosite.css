@@ -1,11 +1,11 @@
       body {
         background-color: #1D1E42;
-        font-family: Montserrat;
+        /*font-family: Montserrat;*/
         text-decoration: none;
         padding-bottom: 0px;
       }
       h2, h3, h4, h5, p {
-        font-family: Montserrat;
+        /*font-family: Montserrat;*/
       }
       * {
          scrollbar-width: thin;
@@ -92,7 +92,7 @@
       }
       #hero h2 {
         font-size: 38px;
-        font-family: Montserrat;
+        /*font-family: Montserrat;*/
       }
       #hero h5 b #name {
         color : #514FEB;
