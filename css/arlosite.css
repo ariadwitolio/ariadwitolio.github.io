@@ -135,6 +135,11 @@
         color: white;
         text-align: center;
       }
+      #project h4 {
+        color: white;
+        text-align: center;
+        opacity: 60%;
+      }
       #project img {
         transition: 0.3s;
         border-radius: 10px;
@@ -257,6 +262,11 @@
         margin-bottom: 50px;
         color: white;
         text-align: center;
+      }
+      #testimoni h4 {
+        color: white;
+        text-align: center;
+        opacity: 60%;
       }
       #testimoni img {
         margin-right: auto;
