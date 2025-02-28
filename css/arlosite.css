@@ -372,7 +372,7 @@
       footer {
         bottom: 0px;
         text-align: center;
-        background-color: #141430;
+        background-color: #0D0D22;
         color: white;
         padding: 50px;
       }
@@ -571,7 +571,8 @@
         #testimoni3 {
           width: 90%;
           padding: 30px;
-          background-color: rgba(000, 0, 0, 0.15);
+          /*background-color: rgba(000, 0, 0, 0.15);*/
+          background-color: #0D0D29;
           border-radius: 15px;
           margin-bottom: 100px;
         }
