@@ -16,7 +16,7 @@
        }
        
       *::-webkit-scrollbar-track {
-         background: #1D1E42;
+         background: #0D0D29;
        }
        
       *::-webkit-scrollbar-thumb {
@@ -25,7 +25,7 @@
        }
        
       *::-webkit-scrollbar-corner {
-         background: #1D1E42;
+         background: #0D0D29;
       }
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -95,7 +95,7 @@
         font-family: Agrandir;
       }
       #hero h5 b #name {
-        color: #514FEB;
+        color: #3433BE;
       }
       #hero #img {
         background-size: cover;
@@ -216,7 +216,7 @@
         margin-left: 100px;
         margin-top: 0px;
         margin-bottom: auto;
-        background-color: #514FEB;
+        background-color: #3433BE;
         border-radius: 7px;
         /*border-color: 2px solid white;*/
         padding: 12px 20px 12px 20px;
@@ -225,9 +225,9 @@
         transition: 0.2s;
       }
       #interest button:hover {
-        background-color: #514FEB;
+        background-color: #3433BE;
         transform: scale(1.03);
-        border-color: #514FEB;
+        border-color: #3433BE;
       }
       .btn {          
         padding: 14px 28px;
@@ -250,9 +250,9 @@
         text-decoration: none;
       }
       .more:hover {
-        border-color: #514FEB;
+        border-color: #3433BE;
         color: white;
-        background-color: #514FEB;
+        background-color: #3433BE;
       }
       #testimoni {
         margin-top: 100px;
@@ -520,7 +520,7 @@
         }
         #interest button {
           display: block;
-          background-color: #514FEB;
+          background-color: #3433BE;
           border-radius: 7px;
           /*border-color: 2px solid white;*/
           color: white;
