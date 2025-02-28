@@ -2,11 +2,11 @@
 
         font-family: 'Agrandir'; /* Name your font family as "Agrandir" */
 
-        src: url('path/to/agrandir-regular.woff2') format('woff2'), 
+        src: url('font/agrandir-regular.woff2') format('woff2'), 
 
-             url('path/to/agrandir-regular.woff') format('woff'), 
+             url('font/agrandir-regular.woff') format('woff'), 
 
-             url('path/to/agrandir-regular.ttf') format('truetype'); /* Add other font formats as needed */
+             url('font/agrandir-regular.ttf') format('truetype'); /* Add other font formats as needed */
 
         font-weight: normal;
 
