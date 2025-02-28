@@ -2,7 +2,9 @@
 
         font-family: 'Agrandir'; /* Name your font family as "Agrandir" */
 
-        src: url('font/agrandir-regular.woff2') format('woff2'), 
+        src: url('font/agrandir-regular.woff2') format('woff2'),
+              
+             url(font/'Agrandir-Regular.otf') format('otf'),
 
              url('font/agrandir-regular.woff') format('woff'), 
 
