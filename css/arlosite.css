@@ -507,10 +507,10 @@
           opacity: 60%;
         }
         #interest {
-          width: 100%;
+          width: 90%;
           padding: 35px;
           background-color: #171732;
-          border-radius: 0px;
+          border-radius: 15px;
           margin-bottom: 100px;
           text-align: center;
         }
