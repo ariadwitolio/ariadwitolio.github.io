@@ -201,7 +201,7 @@
       #interest {
         width: 100%;
         padding: 50px;
-        background-color: #141430;
+        background-color: #171732;
         /*background-color: rgba(81, 79, 235, 0.1);*/
         border-radius: 15px;
         margin-bottom: 100px;
@@ -299,7 +299,8 @@
       #testimoni3 {
         width: 100%;
         padding: 60px 20px;
-        background-color: rgba(000, 0, 0, 0.15);
+        /*background-color: rgba(000, 0, 0, 0.15);*/
+            background-color: #171732;
         border-radius: 15px;
         margin-bottom: 100px;
       }
@@ -508,7 +509,7 @@
         #interest {
           width: 100%;
           padding: 35px;
-          background-color: #141430;
+          background-color: #171732;
           border-radius: 0px;
           margin-bottom: 100px;
           text-align: center;
@@ -572,7 +573,7 @@
           width: 90%;
           padding: 30px;
           /*background-color: rgba(000, 0, 0, 0.15);*/
-          background-color: #0D0D29;
+          background-color: #171732;
           border-radius: 15px;
           margin-bottom: 100px;
         }
