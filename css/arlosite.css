@@ -1,5 +1,5 @@
       body {
-        background-color: #141430;
+        background-color: #0D0D22;
         font-family: Agrandir;
         text-decoration: none;
         padding-bottom: 0px;
@@ -16,7 +16,7 @@
        }
        
       *::-webkit-scrollbar-track {
-         background: #0D0D29;
+         background: #141430;
        }
        
       *::-webkit-scrollbar-thumb {
@@ -25,7 +25,7 @@
        }
        
       *::-webkit-scrollbar-corner {
-         background: #0D0D29;
+         background: #141430;
       }
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -201,7 +201,7 @@
       #interest {
         width: 100%;
         padding: 50px;
-        background-color: #0D0D29;
+        background-color: #141430;
         /*background-color: rgba(81, 79, 235, 0.1);*/
         border-radius: 15px;
         margin-bottom: 100px;
@@ -372,7 +372,7 @@
       footer {
         bottom: 0px;
         text-align: center;
-        background-color: #0D0D29;
+        background-color: #141430;
         color: white;
         padding: 50px;
       }
@@ -508,7 +508,7 @@
         #interest {
           width: 100%;
           padding: 35px;
-          background-color: #0D0D29;
+          background-color: #141430;
           border-radius: 0px;
           margin-bottom: 100px;
           text-align: center;
