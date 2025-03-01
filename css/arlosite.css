@@ -1,14 +1,14 @@
       /*@font-face {
 
-        font-family: ''Agrandir''; /* Name your font family as "'Agrandir'" */
+        font-family: 'Arial'; /* Name your font family as "Arial" */
 
-        /*src: url('font/'Agrandir'-regular.woff2') format('woff2'),
+        /*src: url('font/Arial-regular.woff2') format('woff2'),
               
-             url('font/'Agrandir'-Regular.otf') format('otf'),
+             url('font/Arial-Regular.otf') format('otf'),
 
-             url('font/'Agrandir'-regular.woff') format('woff'), 
+             url('font/Arial-regular.woff') format('woff'), 
 
-             url('font/'Agrandir'-regular.ttf') format('truetype'); /* Add other font formats as needed */
+             url('font/Arial-regular.ttf') format('truetype'); /* Add other font formats as needed */
 
         /*font-weight: normal;
 
@@ -17,12 +17,12 @@
     }*/
       body {
         background-color: #0D0D22;
-        font-family: 'Agrandir';
+        font-family: Arial;
         text-decoration: none;
         padding-bottom: 0px;
       }
       h1, h2, h3, h4, h5, h6, p {
-        font-family: 'Agrandir';
+        font-family: Arial;
       }
       * {
         scrollbar-width: thin;
@@ -106,7 +106,7 @@
       }
       #hero h2 {
         font-size: 38px;
-        font-family: 'Agrandir';
+        font-family: Arial;
       }
       #hero h5 b #name {
         color: #3433BE;
@@ -404,7 +404,7 @@
           width: 100%;
       }
       h1, h2, h3, h4, h5, h6, p {
-        font-family: 'Agrandir';
+        font-family: Arial;
       }
       footer p {
         margin: 20px 0px 20px 0px;
@@ -642,6 +642,6 @@
         font-size: 3.5rem;
       }
       h1, h2, h3, h4, h5, h6, p {
-        font-family: 'Agrandir';
+        font-family: Arial;
       }
       }
