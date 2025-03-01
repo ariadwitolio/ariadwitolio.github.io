@@ -17,12 +17,12 @@
     }
 body {
         background-color: #0D0D22;
-        font-family: Arial;
+        font-family: Agrandir;
         text-decoration: none;
         padding-bottom: 0px;
       }
       h1, h2, h3, h4, h5, h6, p {
-        font-family: Arial;
+        font-family: Agrandir;
       }
       * {
          scrollbar-width: thin;
@@ -109,7 +109,7 @@ body {
       }
       #hero h2 {
         font-size: 38px;
-        font-family: Arial;
+        font-family: Agrandir;
       }
       #hero h5 b #name {
         color: #3433BE;
@@ -409,7 +409,7 @@ body {
         }
             
       h1, h2, h3, h4, h5, h6, p {
-        font-family: Arial;
+        font-family: Agrandir;
       }
         footer p {
         margin: 20px 0px 20px 0px;
@@ -654,6 +654,6 @@ body {
         }
             
       h1, h2, h3, h4, h5, h6, p {
-        font-family: Arial;
+        font-family: Agrandir;
       }
       }
