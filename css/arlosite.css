@@ -1,8 +1,8 @@
-      @font-face {
+      /*@font-face {
 
         font-family: 'Agrandir'; /* Name your font family as "Agrandir" */
 
-        src: url('font/agrandir-regular.woff2') format('woff2'),
+        /*src: url('font/agrandir-regular.woff2') format('woff2'),
               
              url('font/Agrandir-Regular.otf') format('otf'),
 
@@ -10,11 +10,11 @@
 
              url('font/agrandir-regular.ttf') format('truetype'); /* Add other font formats as needed */
 
-        font-weight: normal;
+        /*font-weight: normal;
 
         font-style: normal;
 
-    }
+    }*/
 body {
         background-color: #0D0D22;
         font-family: Agrandir;
