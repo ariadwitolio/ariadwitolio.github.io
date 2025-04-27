@@ -541,10 +541,12 @@
       #hero h3 {
         font-size: 18px;
       }
+      #page-detail {
+        margin-top: 0px;
+      }
       #page-detail #description {
         padding-left: 0px;
         padding-right: 0px;
-        
       }
       #page-detail h3 {
         margin-top: 10px;
