@@ -15,8 +15,15 @@
         font-style: normal;
 
     }*/
+      #page-detal {
+        margin-top: 100px;
+      }
       #page-detail h1, h2, h3, h4, h5, h6, p {
         color: white;
+      }
+      #page-detail #hero {
+        margin-top: 20px;
+        margin-bottom: 34px;
       }
       #page-detail description {
         margin-left: 64px;
@@ -24,10 +31,7 @@
       }
       #page-detail h3 {
         opacity: 60%;
-      }
-      #page-detail #hero {
-        margin-top: 20px;
-        margin-bottom: 34px;
+        margin-bottom: 12px;
       }
       #page-detail img {
         width: 100%;
