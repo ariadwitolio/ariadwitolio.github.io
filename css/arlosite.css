@@ -15,11 +15,12 @@
         font-style: normal;
 
     }*/
-      #page-detail h1 {
-        color: white;
-      }
       #page-detail h1, h2, h3, h4, h5, h6, p {
         color: white;
+      }
+      #page-detail description {
+        margin-left: 64px;
+        margin-right: 64px;
       }
       #page-detail h3 {
         opacity: 60%;
