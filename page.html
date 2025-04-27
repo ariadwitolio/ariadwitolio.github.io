@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--<!doctype html>-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <link rel="icon" type="image/gif" href="img/arlosite-favicon.png">
+    <title>Arlosite</title>
+    
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">    
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+
+    <!-- or the one installed in node_modules directory, -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+
+    <!-- or the reference on CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/arlosite.css" rel="stylesheet">
+    
+
+  </head>
+  <body>
+    
+   <!-- <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+        <div class="container-fluid">
+          <!--<a class="navbar-brand" href="index.html"><b>Arlosite</b></a>-->
+         <!--- <a href="index.html">
+            <img src="img/arlositelogo.png" style="width: 130px; text-align: left;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="topnav-right" id="navbar-menu">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item ">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="artwork.html">Artwork</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:ariadwitolio@gmail.com" target="_blank">Contact</a>
+                </li>
+              </ul>                
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="navbar-mobile">
+      <a href="index.html" class="actives">Home</a>
+      <a href="artwork.html">Artwork</a>
+      <a href="mailto:ariadwitolio@gmail.com" target="_blank">Contact</a>
+    </div>
+-->
+
+    <div class="container" id="project">
+      <div>
+        <h2><b> Tweak Indonesia - Sport & Workout Platform </b></h2>
+        <img src="img/1.webp">
+      </div>
+      <div>
+        <h3>Overview</h3>
+        <p>The objective of the Lunar project is to develop a comprehensive SaaS solution that revolutionizes financial management for businesses of all sizes. Lunar aims to simplify complex financial processes, streamline operations, enhance operational efficiency, empower informed decision-making, and catalyze sustainable business growth through its robust feature set. From budgeting and forecasting to insightful analytics and reporting, Lunar streamlines operations for businesses of all sizes. Enhance efficiency, make informed decisions, and drive growth with Lunar.</p>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+      <footer>
+      <h3><b>Get in touch</b></h3>
+      <div class="row" id="sosmed">
+          <a href="https://www.linkedin.com/in/aria-dwitolio-b21988155/" target="_blank"><img src="img/linkedin.png"></a>
+          <a href="mailto:ariadwitolio@gmail.com" target="_blank"><img src="img/mail.png"></a>
+          <a href="https://api.whatsapp.com/send?phone=+6288223551945" target="_blank"><img src="img/wa.png"></a>
+          <a href="https://drive.google.com/file/d/1PAX4Ox7pV7DJwZtq6nBe5kevjp-dmKg4/view?usp=sharing" target="_blank"><img src="img/cv-0.png"></a>
+          <!--<a href=""><img src="img/yt.png"></a>
+          <a href=""><img src="img/ig.png"></a>
+          <a href=""><img src="img/dribbble.png"></a>-->
+      </div>
+      <p style="opacity: 50%">&copy; Arlosite by Aria Dwitolio</p>
+    </footer> 
+    </div>
+
+
+    <script type="text/javascript">
+      window.onscroll = function() {scrollFunction()};
+        
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "20px 40px";
+          document.getElementById("navbar").style.backgroundColor = "rgba( 20, 20, 50, 0.50 )";
+          document.getElementById("navbar").style.backdropFilter = "blur( 25px )";
+          document.getElementById("navbar").style.color = "#ffff";
+          document.getElementById("logo").style.fontSize = "25px";
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("navbar").style.padding = "40px";
+          document.getElementById("navbar").style.backgroundColor = "transparent";
+          document.getElementById("logo").style.fontSize = "35px";
+          document.getElementById("myBtn").style.display = "hidden";
+        }
+      }
+
+      document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '#image-slider', {
+          type        : 'loop',
+          perPage     : 1,
+          autoplay    : true,
+          pauseOnHover: false,
+        }).mount();
+      });
+    </script>
+
+
+  </body>
+</html>
