@@ -39,7 +39,7 @@
         border-radius: 5px;
       }
       #page-detail #visual {
-        padding-top: 28px;
+        padding-top: 32px;
         padding-bottom: 18px;    
       }
       #more-project h3 {
@@ -593,6 +593,10 @@
       #page-detail {
         margin-top: 0px;
       }
+      #page-detail #hero {
+        margin-top: 18px;
+        margin-bottom: 34px;
+      }
       #page-detail #description {
         padding-left: 0px;
         padding-right: 0px;
@@ -625,6 +629,23 @@
         font-size: 20px;
       }
       #interest button {
+        display: block;
+        background-color: #3433BE;
+        border-radius: 7px;
+        /*border-color: 2px solid white;*/
+        color: white;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        float: center;
+        margin-top: 30px;
+      }
+      #more-interest h3 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 20px;
+      }
+      #more-interest button {
         display: block;
         background-color: #3433BE;
         border-radius: 7px;
