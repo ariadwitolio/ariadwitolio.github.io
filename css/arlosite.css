@@ -28,6 +28,7 @@
       #page-detail #description {
         margin-left: 140px;
         margin-right: 140px;
+        margin-bottom: 20px;
       }
       #page-detail h3 {
         opacity: 60%;
