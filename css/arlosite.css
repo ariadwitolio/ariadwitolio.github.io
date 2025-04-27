@@ -25,13 +25,13 @@
         margin-top: 20px;
         margin-bottom: 34px;
       }
-      #page-detail description {
+      #page-detail #description {
         margin-left: 64px;
         margin-right: 64px;
       }
       #page-detail h3 {
         opacity: 60%;
-        margin-bottom: 12px;
+        margin-bottom: 22px;
       }
       #page-detail img {
         width: 100%;
