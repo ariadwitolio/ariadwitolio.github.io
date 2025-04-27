@@ -26,12 +26,12 @@
         margin-bottom: 34px;
       }
       #page-detail #description {
-        margin-left: 64px;
-        margin-right: 64px;
+        padding-left: 64px;
+        padding-right: 64px;
       }
       #page-detail h3 {
         opacity: 60%;
-        margin-bottom: 150px;
+        padding-bottom: 12px;
       }
       #page-detail img {
         width: 100%;
