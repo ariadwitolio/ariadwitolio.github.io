@@ -19,8 +19,11 @@
         color: white;
       }
       #page-detail #hero {
-        margin-top: 24px
-        margin-bottom: 48px
+        margin-top: 24px;
+        margin-bottom: 48px;
+      }
+      #page-detail img {
+        width: 100%;
       }
       body {
         background-color: #0D0D22;
