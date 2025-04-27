@@ -28,6 +28,7 @@
       #page-detail #description {
         padding-left: 80px;
         padding-right: 80px;
+        padding-bottom: 6px
       }
       #page-detail h3 {
         opacity: 60%;
@@ -38,8 +39,8 @@
         border-radius: 5px;
       }
       #page-detail #visual {
-        padding-top: 14px;
-        padding-bottom: 14px;    
+        padding-top: 18px;
+        padding-bottom: 18px;    
       }
       body {
         background-color: #0D0D22;
