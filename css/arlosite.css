@@ -619,6 +619,9 @@
       #hero h3 {
         font-size: 18px;
       }
+      ul {
+        margin-bottom: 28px;
+      }   
       #page-detail {
         margin-top: 0px;
       }
@@ -639,7 +642,7 @@
       }
       #page-detail h5 {
         font-size: 16px;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
       }
       #interest {
         width: 95%;
