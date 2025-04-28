@@ -55,7 +55,7 @@
         border-radius: 5px;
       }
       #page-detail #visual {
-        padding-top: 40px;
+        padding-top: 50px;
         padding-bottom: 18px;    
       }
       #more-project h3 {
@@ -194,8 +194,8 @@
       }
       #description h5 {
         opacity: 60%;
-        margin-top: 10px;
-        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-bottom: 50px;
       }
       #hero h2 {
         margin-top: 30px;
