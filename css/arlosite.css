@@ -565,6 +565,9 @@
         text-align: left;
         margin: 0px;
       }*/
+      #back h4 {
+        font-size: 18px;
+      }
       #back h4 a {
         color: white;
         opacity: 60%;
