@@ -15,12 +15,12 @@
         font-style: normal;
 
     }*/
-      #back h4 {
+      #back h4 a {
         color: white;
         opacity: 60%;
         margin-bottom: 20px;
       }
-      #back h4:hover {
+      #back a:hover {
         color: white;
         opacity: 100%;
       }
