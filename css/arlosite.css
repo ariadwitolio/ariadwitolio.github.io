@@ -566,7 +566,7 @@
         margin: 0px;
       }*/
       #back h4 {
-        font-size: 18px;
+        font-size: 16px;
       }
       #back h4 a {
         color: white;
@@ -631,18 +631,14 @@
         padding-right: 0px;
       }
       #page-detail h2 {
-        
         font-size: 22px;
       }
       #page-detail h3 {
-        
         font-size: 18px;
-        opacity: 60%;
+        opacity: 100%;
       }
       #page-detail h5 {
-        
         font-size: 16px;
-        
       }
       #interest {
         width: 95%;
