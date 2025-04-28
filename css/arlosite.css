@@ -16,9 +16,12 @@
 
     }*/
       #back h4 {
+        color: white;
         opacity: 60%;
+        margin-bottom: 10px;
       }
       #back h4:hover {
+        color: white;
         opacity: 100%;
       }
       ul{
