@@ -47,7 +47,7 @@
         
       }
       #page-detail h3 {
-        opacity: 60%;
+        opacity: 100%;
         padding-bottom: 12px;
       }
       #page-detail img {
@@ -193,8 +193,9 @@
         /*background-color: #141432;*/
       }
       #description h5 {
-        margin-top: -10px;
-        margin-bottom: 30px;
+        opacity: 60%;
+        margin-top: 10px;
+        margin-bottom: 40px;
       }
       #hero h2 {
         margin-top: 30px;
