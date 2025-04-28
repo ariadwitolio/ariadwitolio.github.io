@@ -15,7 +15,7 @@
         font-style: normal;
 
     }*/
-      #back a {
+      #back a h4 {
         color: white;
         opacity: 60%;
         margin-bottom: 20px;
@@ -564,7 +564,7 @@
         text-align: left;
         margin: 0px;
       }*/
-      #back h4 {
+      #back a h4 {
         color: white;
         opacity: 60%;
         margin-bottom: 20px;
