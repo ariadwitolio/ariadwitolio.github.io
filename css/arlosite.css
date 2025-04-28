@@ -20,7 +20,7 @@
         opacity: 60%;
         margin-bottom: 20px;
       }
-      #back h4:hover {
+      #back a:hover {
         color: white;
         opacity: 100%;
       }
