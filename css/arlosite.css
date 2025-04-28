@@ -565,11 +565,14 @@
         text-align: left;
         margin: 0px;
       }*/
-      #back a h4 {
+      #back h4 a {
         color: white;
         opacity: 60%;
         margin-bottom: 20px;
-        font-size: 18px;
+      }
+      #back a:hover {
+        color: white;
+        opacity: 100%;
       }
       #sosmed img {
         width: 22px;
